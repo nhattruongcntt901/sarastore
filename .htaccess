@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteRule "trangchu" "index.php"
+RewriteRule "account/profile" "page/nguoimua/account.php"
+RewriteRule "account/update" "page/nguoimua/chucnang/profile_update.php"
+RewriteRule "account/address" "page/nguoimua/address.php"
+RewriteRule "account/order" "page/nguoimua/order.php"
+RewriteRule "account/danh-gia" "page/nguoimua/danhgia.php"
+RewriteRule "account/add_address" "page/nguoimua/chucnang/address_add.php"
+RewriteRule "seller/register" "page/nguoiban/dangkinguoiban.php"
+RewriteRule "account/purchase-history" "page/nguoimua/purchase-history.php"
+RewriteRule "seller/add_shop" "page/nguoiban/chucnang/insert_shop.php"
+RewriteRule "seller/product-add" "page/nguoiban/chucnang/product_add.php"
+RewriteRule "cua-hang" "page/nguoiban/shop.php"
+RewriteRule "san-pham" "page/sanpham.php"
+RewriteRule "seller/product-manager" "page/nguoiban/sanpham_shop.php"
+RewriteRule "seller/info" "page/nguoiban/thongtin_shop.php"
+RewriteRule "seller/don-mua" "page/nguoiban/donmua_shop.php"
+RewriteRule "seller/thong-ke" "page/nguoiban/thongke_shop.php"
+RewriteRule "seller/shop_update" "page/nguoiban/chucnang/shop_update.php"
+RewriteRule "cart" "page/giohang/giohang.php"
+# ErrorDocument 404 /error404.html
+# Options -Indexes

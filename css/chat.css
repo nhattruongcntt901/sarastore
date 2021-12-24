@@ -1,0 +1,104 @@
+.user-chat-list {
+    width: 19%;
+    border-right: 1px solid rgb(0, 0, 0, 0.1);
+    height: 100vh;
+    padding: 5px 10px;
+}
+
+.chat-body1 {
+    width: 81%;
+}
+
+.input-search {
+    border-radius: 30px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    margin-top: 20px;
+}
+
+.input-chat {
+    border-radius: 30px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+}
+
+.list-items {
+    width: 100%;
+    height: calc(100vh - 210px);
+    padding: 10px;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.body-head {
+    padding: 10px;
+    box-shadow: 4px 0px 10px rgb(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.chats {
+    height: calc(100vh - 150px);
+    overflow-y: scroll;
+    padding: 0px 20px;
+}
+
+.tn-img {
+    width: auto;
+}
+.xemtruoc{
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 1;
+    height: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.cart-soluong {
+    position: relative;
+    top: -50px;
+    right: -88px;
+    background-color: #a04444;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 0.8em;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.new{
+    margin-left: auto;
+    background-color: #a04444;
+    border-radius: 50%;
+    font-size: 0.8em;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

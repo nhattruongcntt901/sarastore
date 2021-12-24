@@ -1,0 +1,42 @@
+.bg-white{
+    background-color: #F7F7F7;
+}
+.bg-pink{
+    background-color: #FFBC97;
+}
+.bg-orange{
+    background-color: #FF7800;
+}
+.bg-yellow{
+    background-color: #FFE300;
+}
+.font-white{
+    color: #F7F7F7 !important;
+}
+.font-brown{
+  color: #a58b69;
+}
+.bg-brown{
+  background-color: #a58b69;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(153, 153, 153); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #919191; 
+  }

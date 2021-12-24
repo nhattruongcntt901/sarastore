@@ -1,0 +1,150 @@
+.head-login{
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+}
+.logo-login{
+    width: 200px;
+}
+.title{
+    font-size: 1.4em;
+}
+.body-login{
+    width: 100%;
+    height: auto;
+    min-height: 80vh;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media screen and (max-width: 846px){
+    .form-login{
+        width: 95% !important;
+    }
+    .colume-login{
+        width : 100% !important;
+    }
+    .row-login{
+        width: auto !important;
+    }
+    .row-login1{
+        gap: 0px !important;
+    }
+}
+.form-login{
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+}
+.form-login1{
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    
+}
+.input-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    height: 40px;
+    font-family: shopee2021-regular;
+}
+input::placeholder{
+    font-size: 0.8em;
+    font-family: shopee2021-light;
+    font-style: italic;
+}
+.input-form > input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.input-form > span{
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.login-btn{
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 2px;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.error{
+    width: 100%;
+    height: 10px;
+    color:brown;
+    font-size: 0.75em;
+    text-align: end;
+    margin-bottom: 6px;
+}
+body{
+    overflow-x: hidden;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.row-login{
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.row-login1{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.colume-login{
+    width: calc(50% - 10px);
+}
+.form-title{
+    font-size: 0.8em;
+    font-family: shopee2021-light;
+}
+.select-form{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.thongbao_success{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a58b69;
+}

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: FVHShopeeText-Bold;
+    src: url('../font/FVHShopeeText-Bold.otf');
+}
+@font-face {
+    font-family: shopee2021-black;
+    src: url('../font/shopee2021-black.ttf');
+}
+@font-face {
+    font-family: shopee2021-bold;
+    src: url('../font/shopee2021-bold.ttf');
+}
+@font-face {
+    font-family: shopee2021-extrabold;
+    src: url('../font/shopee2021-extrabold.ttf');
+}
+@font-face {
+    font-family: shopee2021-light;
+    src: url('../font/shopee2021-light.ttf');
+}
+@font-face {
+    font-family: shopee2021-regular;
+    src: url('../font/shopee2021-regular.ttf');
+}
+.font-shopee-FVHShopeeText-Bold{
+    font-family: FVHShopeeText-Bold;
+}
+.font-shopee2021-black{
+    font-family: shopee2021-black;
+}
+.font-shopee2021-bold{
+    font-family: shopee2021-bold;
+}
+.font-shopee2021-extrabold{
+    font-family: shopee2021-extrabold;
+}
+.font-shopee2021-light{
+    font-family: shopee2021-light;
+}
+.font-shopee2021-regular{
+    font-family: shopee2021-regular;
+}

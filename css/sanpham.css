@@ -1,0 +1,372 @@
+.info-product-area{
+    width: 100%;
+    min-height: 50vh;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.info-img{
+    width: 40%;
+}
+.info-title{
+    width: calc(60% - 20px);
+}
+.thongtin-danhgia-sp{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.giatien-sp{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #a56969;
+}
+.soluong-sp{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top: 20px;
+}
+.gio-hang-mua-ngay{
+    min-height:120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 10px;
+    gap: 10px;
+}
+.input-tangso{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.padding{
+    padding: 10px;
+}
+
+.info-shop-area{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+.info-img-name-shop{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 40%;
+}
+.img-shop{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.shop-info1{
+    width: 500px !important;
+    gap: 40px;
+    justify-content:flex-end;
+}
+.name-shop{
+    
+}
+.another-info-shop{
+    width: 60%;
+    justify-content:flex-end;
+}
+.colume3{
+    width: 50%;
+}
+.mo-ta-aria{
+    width: 100%;
+    display: flex;
+    min-height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.mo-ta-left{
+    width: 100%;
+}
+.cmt-aria{
+    height: auto;
+    width: 100%;
+    max-height: 400px;
+    overflow-y: scroll;    
+}
+.cmt{
+    display: flex;
+    margin-top: 40px;
+}
+.noidung-area{
+    width: 70%;
+}
+.cmt-img{
+    width: 75px;
+    display:flex;
+    align-items: center;
+}
+.cmt-noidung{
+    color: white;
+    background-color: #a58b69;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+}
+.viet-cmt{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+@media screen and (max-width: 846px){
+    .info-img{
+        width: 100%;
+    }
+    .info-title{
+        width: 100%;
+    }
+    .thongtin-danhgia-sp{
+        flex-wrap: wrap;
+        gap: 100%;
+    }
+    .add-giohang{
+        width: 100%;
+    }
+    .mua-hang{
+        width: 100%;
+        text-align: center;
+    }
+    .info-img-name-shop{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .colume3{
+        width: 100%;
+    }
+    .another-info-shop{
+        width: 100%;
+        padding: 0px;
+    }
+}
+.amination-cart{
+    position: absolute;
+    z-index: 100000;
+
+}
+.tin-nhan{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    float: right;
+}
+.tn-body{
+
+}
+.tn-name{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.tn-nd{
+    background-color: #a56969;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    float: right;
+    max-width: 700px;
+}
+.tn-img{
+    height: 100%;
+    border-radius: 50%;
+    width: 15%;
+    margin-right: 10px;
+    align-items: flex-start;
+}
+.tin-nhan1{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: center;
+    float:left;
+}
+.tn-body1{
+    width: 85%;
+}
+.tn-name1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.tn-nd1{
+    background-color: #a569698c;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    float: left;
+    max-width: 700px;
+}
+
+
+.cart-area{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.shop-name{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap:10px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.cart-product{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+}
+.product-img{
+    width: 70px;
+    height: 70px;
+}
+.product-name{
+    width: 30%;
+}
+.product-name:hover{
+    color: #a56969;
+}
+.product-single-price{
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+.product-soluong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.product-price{
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    color: #a56969;
+}
+.product-delete{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    color: #ac3131;
+}
+.van-chuyen{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.thanh-toan-shop{
+    background-color: white;
+    padding: 10px;
+    
+}
+.name-shop1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.right{
+    width: calc(100% - 20px - 70px);
+    display: flex;
+}
+.thanh-toan{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.title-cart{
+    display:flex;
+    padding-left:18%;
+    background-color:white;
+    padding-top: 10px;
+}
+.dia-chi{
+  
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    padding: 40px;
+    overflow-y:scroll;
+    margin-bottom: 20px;
+}
+.radio-diachi{
+    width: 10%;
+}
+.info-diachi{
+    width: 90%;
+}
+
+@media screen and (max-width: 846px){
+    .right{
+        display: block;
+    }
+    .title-cart{
+        display: none;
+    }
+    .product-price{
+        display: none;
+    }
+    .product-single-price{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .product-name{
+        width: 100%;
+    }
+    .product-soluong{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .cart-product{
+        align-items: flex-start;
+    }
+    .product-delete{
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+    .name-shop{
+        width: 100%;
+    }
+    .thanh-toan{
+        display: block;
+    }
+}
+
